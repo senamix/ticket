@@ -17,8 +17,6 @@ spec:
       containers:
       - name: auth
         image: us.gcr.io/ticket-dev-372608/auth
-        ports:
-        - containerPort: 3000
 ---
 apiVersion: v1
 kind: Service
